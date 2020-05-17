@@ -1,0 +1,22 @@
+[
+    {
+        "suggestion": "Learn Flash Basics",
+        "image": "flasklogo.png"
+    },
+    {
+        "suggestion": "Learn Git",
+        "image": "gitlogo.png"
+    },
+    {
+        "suggestion": "Bash Pattern Matching",
+        "image": "bashlogo.png"
+    },
+    {
+        "suggestion": "Learn Docker Containers",
+        "image": "dockerlogo.png"
+    },
+    {
+        "suggestion": "Learn Kubernetes",
+        "image": "kuberneteslogo.png"
+    }
+]

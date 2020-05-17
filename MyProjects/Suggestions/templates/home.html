@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Suggestions</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>Suggestions App</h1>
+        <hr>
+        <div class="imgcontainer">
+            <img src="/static/{{suggestion.image}}">
+        </div>
+        <div class="suggestion">
+            <p>
+                DB Size: {{dbsize}}<br>
+                Max DB Index: {{max_db_index}}<br>
+                Current index: {{index}}
+            </p>
+            <h2>{{suggestion.suggestion}}</h2>
+        </div>
+    </body>
+</html>
