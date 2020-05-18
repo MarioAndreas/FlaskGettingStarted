@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Card template</title>
+    </head>
+    <body>
+        <h1>Flash Card... #{{index + 1}}</h1>
+        <hr>
+        <h2>Question: {{card.question}}</h3>
+        <h2>Answer: {{card["answer"]}}</h2>
+
+        <p>
+            <a href="{{ url_for('welcome') }}">
+                <button>Home: Welcome Page</button>
+            </a>
+
+            {% if index <= 0 %}
+            <a href="{{ url_for('card_view', index=max_index) }}">
+                <button>GoTo End</button>
+            </a>
+            {% else %}
+            <a href="{{ url_for('card_view', index=index - 1) }}">
+                <button>Prev Card</button>
+            </a>
+            {% endif %}
+
+            {% if index >= max_index %}
+            <a href="/card/0">
+                <button>Start Over</button>
+            </a>
+            {% else %}
+            <a href="/card/{{index + 1}}">
+                <button>Next Card</button>
+            </a>
+            {% endif %}
+        </p>
+    </body>
+</html>
