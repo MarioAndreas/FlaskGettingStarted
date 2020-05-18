@@ -58,6 +58,8 @@ except IndexError:
 ## Jinja `for` loops and loop.index0
 {% for card in cards %}  
 {% endfor %}
+`loop.index`: index starts with '1'
+`loop.index0`: index starts with '0'
 
 ```
 <ol>

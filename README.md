@@ -20,14 +20,25 @@ Start Notes document what was learned the past couple of days
 <br><br>
 
 ---
-## Day 4: May 16, 2020 - Nhr
+## Day 4: May 16, 2020 - 2hr
 **Today's Progress:**  
-Review and Update Notes
+Review and Update Notes  
 Create personal project: "Suggestions"  
-./MyProjects/suggestions/
+./MyProjects/Suggestions  
 - json db: each item has a 'suggestion' and an 'image'
 - template references .css and image files from 'static' directory
 - use random index to display a random suggestion from the db when page is refreshed
+<br><br>
+
+---
+## Day 5: May 17, 2020 - 1hr
+**Today's Progress:**  
+- Pass arg value in the URL
+- `url_for('func_name', var, varN)`
+- `abort(404)`
+- Jinja `if` conditionals
+- Jinja `for` loops and loop.index0
+- REST API
 <br><br>
 
 ---
